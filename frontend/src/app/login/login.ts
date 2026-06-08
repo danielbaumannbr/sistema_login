@@ -12,7 +12,7 @@ import { AuthService } from '../auth';
   templateUrl: './login.html'
 })
 export class Login{
-  credentials = { email: '', password: '' };
+  credentials = { email: '', senha: '' };
   errorMessage = '';
 
   constructor(private authService: AuthService, private router: Router) {}

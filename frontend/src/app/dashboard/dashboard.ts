@@ -7,7 +7,7 @@ import { AuthService } from '../auth';
 @Component({
   selector: 'app-dashboard',
   standalone: true,
-  imports: [NgIf],
+  imports: [],
   templateUrl: './dashboard.html'
 })
 export class Dashboard{

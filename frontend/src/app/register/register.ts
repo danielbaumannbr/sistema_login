@@ -12,7 +12,7 @@ import { AuthService } from '../auth';
   templateUrl: './register.html'
 })
 export class Register {
-  userData = { name: '', email: '', password: '' };
+  userData = { nome: '', email: '', senha: '' };
   message = '';
 
   constructor(private authService: AuthService, private router: Router) {}
